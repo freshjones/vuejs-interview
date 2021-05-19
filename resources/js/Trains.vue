@@ -20,6 +20,7 @@
     import { mapActions, mapGetters } from 'vuex';
     import _ from 'lodash';
     export default {
+        mixins: [Trains],
         props: {
             name: {
                 default: 'Trains'
